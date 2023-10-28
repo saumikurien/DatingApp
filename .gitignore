@@ -473,3 +473,4 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 /API/appsettings.json
+/UI
