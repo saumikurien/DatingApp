@@ -28,10 +28,10 @@ getUsers()
 }
 
   setCurrentUser(){
-    const userString = localStorage.getItem('user');
-    if (!userString) return;
-    const user: Users = JSON.parse(userString);
-    this.accountService.setCurrentUser(user);
+   const userString = localStorage.getItem('user');
+   if (!userString) return;
+   const user: Users = JSON.parse(userString);
+   this.accountService.setCurrentUser(user);
   }
   
 }
