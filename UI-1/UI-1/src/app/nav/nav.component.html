@@ -12,7 +12,6 @@
             <a class="nav-link" href="#">Messages</a>
           </li>
         </ul>
-        <app-date [item]="currentItem"></app-date>
         <div class="dropdown" *ngIf="accountService.currentUser$ | async" dropdown>
           <a class="dropdown-toggle text-light text-decoration-none" dropdownToggle>Welcome user</a>
           <div class="dropdown-menu" *dropdownMenu>
