@@ -4,6 +4,14 @@
 <div class="mb-3">
     <input type="text" class="form-control" name="username" [(ngModel)]="model.username" placeholder="UserName">
 </div>
+<!-- <div class="mb-3">
+    <label>Choose your favourite user</label>
+    <select class="form-select">
+        <option *ngFor="let a of usersFromHomeComponent" value="a.userName">
+        {{a.userName}}
+        </option>
+    </select>
+</div> -->
 <div>
     <input type="text" class="form-control" name="password" [(ngModel)]="model.password" placeholder="Password">
 </div>
